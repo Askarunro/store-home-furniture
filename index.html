@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -12,54 +15,63 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <a href="#">
-                <svg>
-                    <use></use>
-                </svg>
-            </a>
+        <div class="cont-header container">
+            <div class="logo">
+                <a href="#"><img src="./images/logo.png" alt="">
+                    <!-- <svg width="80" height="80">
+                        <use href="./images/logo.svg"></use>
+                    </svg> -->
+                </a>
+            </div>
+            
             <nav>
-                <ul>
-                    <li>
-                        <a href="">Усі меблі</a>
+                <ul class="nav-list list">
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">Усі меблі</a>
                     </li>
-                    <li>
-                        <a href="">кімнати</a>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">кімнати</a>
                     </li>
-                    <li>
-                        <a href="">колекції</a>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">колекції</a>
                     </li>
-                    <li>
-                        <a href="">про нас</a>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">про нас</a>
                     </li>
-                    <li>
-                        <a href="">доставка та оплата</a>
+                    <li v>
+                        <a href="" class="link-style">доставка та оплата</a>
                     </li>
-                    <li>
-                        <a href="">партнерам</a>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">партнерам</a>
                     </li>
-                    <li>
-                        <a href="">контакти</a>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">контакти</a>
                     </li>
                 </ul>
             </nav>
             <div class="icon-header">
-                <a href="">
-                    <svg>
+                <a href="" class="link-style">icon
+                    <!-- <svg>
                         <use></use>
-                    </svg>
-                </a><a href="">
-                    <svg>
+                    </svg> -->
+                </a>
+                <a href="" class="link-style">icon
+                    <!-- <svg>
                         <use></use>
-                    </svg>
-                </a><a href="">
-                    <svg>
+                    </svg> -->
+                </a>
+                <a href="" class="link-style">icon
+                    <!-- <svg>
                         <use></use>
-                    </svg>
+                    </svg> -->
                 </a>
             </div>
             <div class="lang">
-
+                <ul class="list-lang list">
+                    <li>UA</li>
+                    <li>RU</li>
+                    <li>EN</li>
+                </ul>
             </div>
         </div>
     </header>
@@ -76,7 +88,7 @@
             <div class="container">
                 <h2 class="suptitle">популярні колекції</h2>
                 <div class="card-collections">
-                    <ul>
+                    <ul class="list">
                         <li>
                             <a href=""><img src="./images/store/coll1.jpg" alt=""></a>
                         </li>
@@ -171,20 +183,87 @@
         <!-- section-movies -->
         <section class="section-movies">
             <div class="container">
-            
-            
+                <h2>Більше, ніж просто стиль</h2>
+                <p>Відкрийте для себе процес виробництва - 
+                    від походження сировини до готової продукції у вашій оселі</p>
+                <a href="">перейти до відео</a>
             </div>
 
         </section>
         <!-- section-about-us -->
         <section class="section-about-us">
             <div class="container">
-            
+                <p>Ми - група компаній ART IN HEAD, яка знаходиться в м. Чернігів, 
+                    Україна. 
+                    На ринку України ми працюємо вже більше 10 років.
+                     Виробничі та складські потужності 
+                     становлять більше 10 000 квадратних метрів,
+                      що дозволяє забезпечити повний цикл виробництва і випускати до 
+                      30 000 одиниць готової продукції в місяць. 
+                      Ми постійно нарощуємо наші
+                       виробничі і складські потужності, 
+                       і при цьому ми готові екстрено масштабувати
+                        в рази наше виробництво в разі потреби.</p>
+
+                    <p>>Колекції, що представлені на сайті - це відповідь на потреби 
+                        сучасного ринку. Ми співпрацюємо з представниками великого та 
+                        дрібного бізнесу. Штат конструкторів та дизайнерів дозволяє 
+                        розробити індивідуальний дизайн колекцій для партнерів з
+                         унікальними умовами співпраці. </p>
+                    
+                    <p>З турботою до споживача, ми надаємо якісну продукцію,
+                         позачасовий дизайн та приємні гаманцеві ціни.</p>
             </div>
         </section>
     </main>
     <footer>
-
+        <div class="footer-about-us">
+            <h2>Про нас</h2>
+            <p>ArtInHead.com — це сучасний інтернет-магазин, що пропонує надійні, 
+                якісні та оригінальні меблі для всіх українських громадян.
+                Ми роками створюємо меблі, що наповнюють ваші 
+                оселі комфортом та затишком. 
+                З турботою до споживача,
+                ми надаємо якісну продукцію, позачасовий дизайн та 
+                приємні гаманцеві ціни.</p>
+        </div> 
+        <div class="footer-nav">
+            <h3>Навігація</h3>
+            <nav>
+                <ul class="nav-list list">
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">Усі меблі</a>
+                    </li>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">кімнати</a>
+                    </li>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">колекції</a>
+                    </li>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">про нас</a>
+                    </li>
+                    <li v>
+                        <a href="" class="link-style">доставка та оплата</a>
+                    </li>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">партнерам</a>
+                    </li>
+                    <li class="item-nav-list">
+                        <a href="" class="link-style">контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contact">
+            <h3>контакти</h3>
+            <address>
+                14021, Чернігівська обл.
+                м. Чернігів
+                Новозаводський район
+                вул. Івана Мазепи, 78
+            </address>
+        </div>       
     </footer>
 </body>
 </html>
